@@ -67,6 +67,7 @@ hooks:
             set +x && . "${NVM_DIR}/nvm.sh" use --lts && set -x
             # Starting from here, everything is setup to use the same Node
             yarn build
+            rm -rf node_modules
         )
 
     deploy: |
@@ -74,4 +75,3 @@ hooks:
 
         mkdir -p public/media/image var/log
         (>&2 symfony-deploy)
-        rm -rf node_modules
