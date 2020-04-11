@@ -74,3 +74,4 @@ hooks:
 
         mkdir -p public/media/image var/log
         (>&2 symfony-deploy)
+        rm -rf node_modules
