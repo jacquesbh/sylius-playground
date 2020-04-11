@@ -278,6 +278,15 @@
     "monolog/monolog": {
         "version": "1.23.0"
     },
+    "monsieurbiz/sylius-admin-better-login-plugin": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "2bcd75b4c06beebdccfc1ea8f10d0aa637c48be5"
+        }
+    },
     "myclabs/deep-copy": {
         "version": "1.8.1"
     },
