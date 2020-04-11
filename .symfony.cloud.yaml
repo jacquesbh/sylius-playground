@@ -4,8 +4,8 @@ build:
     flavor: none
 
 runtime:
-    extensions: []
-
+    extensions:
+        - blackfire
 
 relationships:
     database: "db:mysql"
