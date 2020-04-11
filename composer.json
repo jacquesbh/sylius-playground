@@ -17,6 +17,7 @@
     "require": {
         "php": "^7.3",
         "monsieurbiz/sylius-admin-better-login-plugin": "^1.0",
+        "monsieurbiz/sylius-alert-message-plugin": "^1.0",
         "sylius/sylius": "~1.7.0@rc",
         "symfony/dotenv": "^4.4",
         "symfony/flex": "^1.2"

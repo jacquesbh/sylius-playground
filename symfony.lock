@@ -287,6 +287,19 @@
             "ref": "2bcd75b4c06beebdccfc1ea8f10d0aa637c48be5"
         }
     },
+    "monsieurbiz/sylius-alert-message-plugin": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "878",
+            "version": "1.0",
+            "ref": ""
+        },
+        "files": [
+            "config/packages/monsieurbiz_sylius_alert_message_plugin.yaml",
+            "config/routes/monsieurbiz_sylius_alert_message_plugin.yaml"
+        ]
+    },
     "myclabs/deep-copy": {
         "version": "1.8.1"
     },
