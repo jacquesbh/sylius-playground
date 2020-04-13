@@ -1,4 +1,6 @@
 {
+    "name": "jacquesbh/sylius-playground",
+    "description": "Simple Sylius demo on Symfony Cloud",
     "keywords": ["symfony", "sylius", "distribution", "ecommerce", "cart", "shopping"],
     "type": "project",
     "license": "proprietary",
@@ -16,6 +18,7 @@
     ],
     "require": {
         "php": "^7.3",
+        "ext-apcu": "*",
         "monsieurbiz/sylius-admin-better-login-plugin": "^1.0",
         "monsieurbiz/sylius-alert-message-plugin": "^1.0",
         "sylius/sylius": "~1.7.0@rc",

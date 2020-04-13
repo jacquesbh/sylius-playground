@@ -6,6 +6,7 @@ build:
 runtime:
     extensions:
         - blackfire
+        - apcu
 
 relationships:
     database: "db:mysql"
